@@ -1,0 +1,487 @@
+/*
+Theme Name: Unipart Logisitcs - Automotive
+Author: Daniel Earp
+Version: 1.0
+*/
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+}
+
+.wpcf7-form {
+  background-color: #b0bee0;
+  padding: 15px;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  z-index: 0;
+}
+
+.wpcf7-form-control.wpcf7-text,
+.wpcf7-form-control.wpcf7-textarea,
+.wpcf7-form-control.wpcf7-select {
+  width: 90%;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: red;
+  padding: 5px 15px 5px 15px;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+input {
+  height: 50px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-header {
+  padding-top: 100px;
+}
+.nav-logo {
+  width: 250px;
+}
+
+.nav-container {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-links ul {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links li {
+  font-weight: 300;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.nav-links li i {
+  margin-left: 20px;
+}
+
+.search-circle {
+  margin-top: -20px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search-circle i {
+  font-size: 25px;
+}
+
+.headline-container {
+  position: absolute;
+  top: 50%;
+}
+
+.headline-container h1 {
+  color: white;
+  font-size: 450%;
+  font-weight: 700;
+}
+
+.headline-container h2 {
+  color: white;
+  font-size: 240%;
+  font-weight: 600;
+}
+
+.headline-container p {
+  color: white;
+  width: 630px;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.headline-page-container {
+  position: absolute;
+  top: 30%;
+}
+
+.headline-page-container h1 {
+  color: white;
+  font-size: 450%;
+  font-weight: 700;
+  margin: 0;
+}
+
+.headline-page-container h2 {
+  color: white;
+  font-size: 240%;
+  font-weight: 600;
+}
+
+.headline-page-container p {
+  color: white;
+  width: 100%;
+  font-size: 22px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.headline-container h1 {
+  color: white;
+  font-size: 450%;
+  font-weight: 700;
+}
+
+.headline-container h2 {
+  color: white;
+  font-size: 240%;
+  font-weight: 600;
+}
+
+.headline-container p {
+  color: white;
+  width: 630px;
+  font-size: 22px;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-page-container {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  background-image: url("images/hero.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  color: #012169;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 190%;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 175%;
+}
+
+h4 span {
+  color: #ff0000;
+}
+
+.carousel-heading {
+  color: #012169;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 180%;
+  font-weight: 400;
+}
+
+h6 span {
+  color: #ff0000;
+}
+
+.sub-content {
+  padding-top: 100px;
+}
+
+.mini-divider-branded {
+  margin-top: 30px;
+  height: 12px;
+  border-top: 5px solid #012169;
+  border-bottom: 5px solid #ff0000;
+  width: 15%;
+}
+
+.full-divider-branded {
+  margin-top: 30px;
+  height: 12px;
+  border-top: 5px solid #012169;
+  border-bottom: 5px solid #ff0000;
+  width: 100%;
+}
+
+.mini-divider-white {
+  margin-top: 10px;
+  height: 12px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  width: 15%;
+}
+
+.cta-1 {
+  height: 45px;
+  width: 180px;
+  background-color: white;
+  color: #012169;
+  font-weight: 700;
+  font-size: 15px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+.cta-2 {
+  height: 45px;
+  width: 180px;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.see-more {
+  border: 2px solid #012169;
+  color: #012169;
+  width: 180px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.see-more i {
+  margin-left: 10px;
+  font-size: 30px;
+  color: #012169;
+  cursor: pointer;
+}
+
+.read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #012169;
+  width: 180px;
+  height: 43px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.article-image {
+  height: 250px;
+  max-width: 100%;
+}
+
+.insights h3 {
+  color: white;
+  text-transform: none;
+  font-size: 300%;
+}
+
+.insights p {
+  color: white;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.insights i {
+  color: #ff0000;
+  font-size: 50px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: white;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #012169;
+}
+
+.carousel-indicators .active {
+  background-color: #012169;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+  background-color: rgb(207, 204, 204);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon {
+  background-color: rgb(207, 204, 204);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.mid-paragraph {
+  background-color: rgb(229, 225, 225);
+  height: 180px;
+  width: 100%;
+}
+
+.mid-paragraph p {
+  font-size: 20px;
+}
+
+.automotive-solutions {
+  background-image: url("images/automotive-solutions-bg.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.automotive-solutions h3 {
+  font-size: 300%;
+  font-weight: 400;
+}
+
+.automotive-solutions p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.card {
+  border-radius: 0px;
+  width: 25rem !important;
+  border-width: 0px;
+}
+
+.card-body {
+  padding-top: 0px;
+}
+
+.card-body p {
+  color: #012169;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.card-img-top {
+  border-radius: 0px;
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 20px !important;
+  color: #012169;
+}
+
+.our-work {
+  background-image: url("images/texture-background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 600px;
+}
+
+.quote-text {
+  font-size: 25px;
+  font-weight: 700;
+  color: #012169;
+}
+
+.who-we-work-with {
+  background-color: #f7f8fa;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.current-menu-item {
+  font-weight: 700 !important;
+}
+
+.footer h6 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #012169;
+  margin-bottom: 30px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.footer li {
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-decoration: underline;
+  color: #012169;
+  font-size: 15px;
+}
+
+.footer li a {
+  color: #012169;
+}
+
+.footer p {
+  font-weight: 700;
+  color: #012169;
+}
+
+.footer-bottom {
+  background-color: #f7f8fa;
+  min-height: 100px;
+  color: #012169;
+}
